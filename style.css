@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.Titulo {
+    font-size: 30px;
+    margin-bottom:30px ;
+    font-family: sans-serif;
+}
+
+.form2 {
+    width: 50vw;
+    height: 100vh;
+    background: rgb(171, 143, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    background: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+}
